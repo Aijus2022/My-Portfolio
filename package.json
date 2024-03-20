@@ -1,0 +1,67 @@
+{
+  "name": "my-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-player": "^2.15.1",
+    "react-router-dom": "^6.22.3"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@vitejs/plugin-react": "^1.0.0",
+    "gh-pages": "^6.1.1",
+    "vite": "^2.9.17",
+    "web-vitals": "^2.1.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "A portfolio project built with Vite and React.",
+  "main": "src/index.js",
+  "author": "Aijamal",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aijus2022/frontend-developer-potfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "react"
+  ],
+  "bugs": {
+    "url": "https://github.com/Aijus2022/frontend-developer-potfolio/issues"
+  },
+  "homepage": "https://github.com/Aijus2022/frontend-developer-potfolio#readme"
+}
